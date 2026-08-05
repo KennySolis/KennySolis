@@ -14,9 +14,9 @@ keeps systems alive.
 - **[audit-guide](https://github.com/KennySolis/audit-guide)** — local-first FastAPI
   computer-vision workflow guidance, privacy by design (raw frames never touch disk).
 
-**Day job:** Assistant Underwriter at a major insurer — daily underwriting-audit
-review in mainframe-based policy systems, plus Excel VBA automation attached to live
-terminal-emulation sessions.
+**Day job:** Underwriting Service Assistant (S3) at a major insurer — daily
+underwriting-audit review in mainframe-based policy systems, plus Excel VBA
+automation attached to live terminal-emulation sessions.
 
 **Tools:** Python (Flask, FastAPI) · VBA · PowerShell · SQL · REST APIs ·
 systemd/nginx/TLS · Git

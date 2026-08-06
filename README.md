@@ -11,8 +11,6 @@ keeps systems alive.
   Hosted vision LLMs (Google Gemini, multi-provider), 20k-card reference database,
   full eBay Trading/Sell/OAuth integration, self-healing service watchdog, Linux VPS
   deploy. In production since February 2026.
-- **[audit-guide](https://github.com/KennySolis/audit-guide)** — local-first FastAPI
-  computer-vision workflow guidance, privacy by design (raw frames never touch disk).
 
 **Day job:** Underwriting Service Assistant (S3) at a major insurer — daily
 underwriting-audit review in mainframe-based policy systems, plus Excel VBA
@@ -21,5 +19,5 @@ automation attached to live terminal-emulation sessions.
 **Tools:** Python (Flask, FastAPI) · VBA · PowerShell · SQL · REST APIs ·
 systemd/nginx/TLS · Git
 
-Both public repos are sanitized overviews of private production systems —
+The public repo is a sanitized overview of a private production system —
 implementation walkthrough available on request.

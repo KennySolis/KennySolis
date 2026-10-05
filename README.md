@@ -17,6 +17,14 @@ keeps systems alive.
   serialize LLM inference vs image generation, Wake-on-LAN power control,
   JSONL job journal + live dashboard.
 
+**Also built:**
+
+- **[audit-guide](https://github.com/KennySolis/audit-guide)** — local-first
+  computer-vision workflow guide: a FastAPI app that walks a physical audit or
+  verification task step by step with a locally hosted vision model in the loop.
+  Raw camera frames stay in memory and are never written to disk; runs entirely
+  on the local network.
+
 **Day job:** Underwriting Service Assistant (S3) at a major insurer — daily
 underwriting-audit review in mainframe-based policy systems, plus Excel VBA
 automation attached to live terminal-emulation sessions.
@@ -24,5 +32,7 @@ automation attached to live terminal-emulation sessions.
 **Tools:** Python (Flask, FastAPI) · VBA · PowerShell · SQL · REST APIs ·
 systemd/nginx/TLS · Git
 
-Both public repos are sanitized overviews of private production systems —
-implementation walkthrough available on request.
+fleet is the real dispatcher code, lightly sanitized. card-pipeline and
+audit-guide are sanitized overviews of private working systems (card-pipeline
+includes its real production watchdog). Implementation walkthrough available
+on request.
